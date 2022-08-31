@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -alGu
+ls -alGur

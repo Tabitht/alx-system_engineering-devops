@@ -1,2 +1,2 @@
 #!/bin/bash
-find -mindepth 1 -maxdepth 0 -type d,f -empty 
+find . -type d,f -empty 

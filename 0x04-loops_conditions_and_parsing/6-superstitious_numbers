@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+#A bash script that displays number from 1-20. on 4th iteration it display 4 then "bad luck from china", on 9th iteration it displays 9 then "bad luck from japan" and on 17th iteration it displays 17 then "bad luck from italy"
+
+var1=1
+
+while [ $var1 -le 20 ]
+do
+ echo "$var1"
+ case $var1 in
+  "4") echo "bad luck from china";;
+  "9") echo "bad luck from japan";;
+  "17") echo "bad luck from italy";;
+ esac
+ (( var1++ ))
+done
